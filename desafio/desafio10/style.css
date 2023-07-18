@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    box-shadow: 0px 0px 10px 0px black;
+    border: 1px solid black;
+    background-image: linear-gradient(#1cb329, #023d02);
+    color: white;
+    padding: 20px;
+    margin: -8px -8px 0px -8px;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+}
+
+header > p {
+    margin: 0px 0px 20px 0px;
+    color: rgb(212, 212, 212);
+    text-align: center;
+}
+
+nav {
+    margin: 5px 0px 0px 0px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    border: 1px solid #1cb329;
+    display: inline-block;
+    background-color: green;
+    border: 1px solid green;
+    padding: 10px;
+    height: 25px;
+    width: 100px;
+}
+
+nav > a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    box-shadow: 0px 00px 10px 0px black;
+    margin: 0px 150px 0px 150px;
+    padding: 0px;
+    border: 1px solid black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main > p > a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(11, 124, 11);
+}
+
+main > p > a:hover {
+    background-color: #00a800;
+    color: darkgreen;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+div > h3 {
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    background-color: #023d02;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    mask-type: alpha;
+    background-color: white;
+    text-align: justify;
+}
+
+article {
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+article > h3 {
+    border-radius: 30px 30px 0px 0px;
+    border: 2px solid green;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    background-color: #023d02;
+    color: white;
+}
+
+article > ul {
+    background-color: aqua;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: #023d02;
+}
+
+#fora {
+    background-color: antiquewhite;
+}
+
+.font {
+    color: green;
+    font-family: 'idroid', Times, serif;
+    text-indent: 20px;
+}
+
+.fontdegrade {
+    color: rgb(1, 59, 1);
+    margin: 0px 0px 0px 30px;
+    background-image: linear-gradient(to right, #00a800, white);
+    font-family: 'idroid', Times, serif;
+    text-indent: 20px;
+}
+
+.fonttexto {
+    font-size: 18px;
+    background-image: linear-gradient(to right, #00a800, #00ff00);
+}
+
+.cabecalho {
+    color: white;
+    text-align: center;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.extra {
+    margin: 10px;
+    text-indent: 40px;
+    text-align: justify;
+    box-shadow: 0px 00px 10px 0px black;
+    margin: 0px 150px 0px 150px;
+    padding: 0px;
+    border: 1px solid black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.video {
+    text-align: center;
+    box-shadow: 0px 00px 10px 0px black;
+    margin: 0px 150px 0px 150px;
+    padding: 0px;
+    border: 1px solid black;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
