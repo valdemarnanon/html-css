@@ -29,7 +29,7 @@ div#cabecalho {
 nav#click {
     border: 2px solid white;
     border-radius: 5px 15px 5px 15px;
-    margin: 0.5px;
+    margin: 0.5px 0.5px 15px 0.5px;
     padding: 0px 10px 0px 10px;
     text-align: center;
 }
@@ -39,7 +39,7 @@ nav#click {
 nav#click > a {
     border: 1px solid black;
     border-radius: 0px 5px;
-    margin: 0px 10px 10px 10px;
+    margin: 10px 0px;
     padding: 5px;
     background-color: lightgrey;
 }
