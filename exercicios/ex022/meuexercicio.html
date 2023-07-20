@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu ex.</title>
+    <style>
+        div.block {
+            height: 150px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin: 15px;
+        }
+
+        div#q1  {
+            /* Um gradiente inclinado 45 graus, começando azul e terminando vermelho */
+        background-image: linear-gradient(45deg, blue, red);
+        }
+        div#q2  {
+            /*Um gradiente indo do canto inferior direito para o canto superior esquerdo,começando azul e terminando vermelho*/
+            background-image: linear-gradient(to left top, blue, red);
+        }
+        div#q3  {
+            /*Parada de cor: um gradiente indo de baixo para cima,começando azul, tornando-se verde em 40% do seu comprimento, e terminando em vermelho*/
+            background-image: linear-gradient(0deg, blue, green 40%, red);
+        }
+        div#q4  {
+            background-image: linear-gradient(.25turn, red, 10%, blue);
+        }
+        div#q5  {
+            /*
+            Parada colorida em várias posições: um gradiente inclinado em 45 graus, com uma metade inferior esquerda vermelha e uma metade superior direita azul, com uma linha dura onde o gradiente muda de vermelho para azul*/
+            background-image: linear-gradient(45deg, red 50%, blue 50% 100%);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="block" id="q1"></div>
+    <div class="block" id="q2"></div>
+    <div class="block" id="q3"></div>
+    <div class="block" id="q4"></div>
+    <div class="block" id="q5"></div>
+
+</body>
+</html>
