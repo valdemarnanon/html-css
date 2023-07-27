@@ -5,6 +5,11 @@ body {
     text-align: center;
 }
 
+h1 {
+    padding-left: 20px; 
+    color: rgb(46, 46, 46);
+}
+
 a {
     font-display: none;
     text-decoration: none;
@@ -32,11 +37,14 @@ td {
 
 th {
     border: 1px solid gray;
-    padding: 15px;
+    padding: 0px 15px;
 }
 
+
+
+
 .head {
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(226, 226, 226);
 }
 .body {
     background-color: whitesmoke;
