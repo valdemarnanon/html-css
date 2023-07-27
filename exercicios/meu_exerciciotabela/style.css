@@ -1,0 +1,57 @@
+@charset "UTF-8";        
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+a {
+    font-display: none;
+    text-decoration: none;
+}
+
+img {
+    width: 20px;
+    padding-right: 5px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+    line-height: 1.6;
+}
+
+td {
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid rgb(206, 206, 206);
+    padding: auto;
+}
+
+th {
+    border: 1px solid gray;
+    padding: 15px;
+}
+
+.head {
+    background-color: rgb(197, 197, 197);
+}
+.body {
+    background-color: whitesmoke;
+}
+
+.textright {
+    padding-right: 10px;
+    text-align: right;
+}
+
+.textleft {
+    text-align: left;
+}
+
+.color {
+    font-display: none;
+    color: rgb(0, 150, 0);
+}
